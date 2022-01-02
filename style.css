@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    line-height: 150px;
+    font-size: 50;
+}
+h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    line-height: 50px;
+    font-size: 40;
+    font-weight: 100;
+    
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    line-height: 50px;
+    font-size: 40;
+    font-weight: 100;
+    
+}
+
+body{
+    background-color: #242424;
+}
+
+.masterdiv{
+    margin: auto;
+    text-align: center;
+}
+
+/*Jellyfin page*/
+
+.div1{
+    display: inline-block;
+    left: 0;
+    margin-left: auto;
+}
+
+.b1{
+    display: block;
+    height: 225px;
+    width: 370px;
+    background: url("https://images-na.ssl-images-amazon.com/images/I/512uv+qwKuL.png") no-repeat ;
+    border: none;
+    border-radius: 1rem;
+    background-position: center;
+    box-shadow: 0px 0px 15px 10px rgb(24, 25, 25);
+    background-size: 270px 250px;
+    background-color: #000b25;
+    filter: blur(0px);
+    margin-left: 122px;
+    margin-right: 122px;
+}
+
+.div1:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.text1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.b1:hover{
+    filter: blur(4px) brightness(80%);
+    transition: 0.2s;
+    box-shadow: none;
+}
+
+.b1:active{
+    filter: brightness(130%);
+}
+
+
+/*Sonarr*/
+
+.div2{
+    display: inline-block;
+    right: 0;
+}
+
+.b2{
+    display: block;
+    height: 225px;
+    width: 370px;
+    background: url("https://sasquatters.com/media/2020/04/sonarr-banner.jpg") no-repeat ;
+    border: none;
+    border-radius: 1rem;
+    background-position: center;
+    box-shadow: 0px 0px 15px 10px rgb(24, 25, 25);
+    background-size: 490px 325px;
+    background-color: #353535;
+    filter: blur(0px);
+    margin-left: 122px;
+    margin-right: 122px;
+}
+
+.div2:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.text2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.b2:hover{
+    filter: blur(4px) brightness(80%);
+    transition: 0.2s;
+    box-shadow: none;
+}
+
+.b2:active{
+    filter: brightness(130%);
+}
+
+/*Radarr*/
+
+.div3{
+    display: inline-block;
+    right: 0;
+    margin-right: auto;
+}
+
+.b3{
+    display: block;
+    height: 225px;
+    width: 370px;
+    background: url("https://raw.githubusercontent.com/Radarr/radarr.github.io/9cb1492f053cd4aa8f2a648a6c1c210e486352d3/logo/radarr.svg") no-repeat ;
+    border: none;
+    border-radius: 1rem;
+    background-position: center;
+    box-shadow: 0px 0px 15px 10px rgb(24, 25, 25);
+    background-size: 175px 175px;
+    background-color: #353535;
+    filter: blur(0px);
+    margin-left: 122px;
+    margin-right: 122px;
+}
+
+.div3:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.text3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.b3:hover{
+    filter: blur(4px) brightness(80%);
+    transition: 0.2s;
+    box-shadow: none;
+}
+
+.b3:active{
+    filter: brightness(130%);
+}
+
+/*Qbittorrent*/
+
+.divc{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.div4{
+    display: inline-block;
+    width: 370px;
+    height: 270px;
+}
+    
+
+.b4{
+    display: block;
+    height: 225px;
+    width: 370px;
+    background: url("https://raw.githubusercontent.com/qbittorrent/qBittorrent-website/master/favicon.ico") no-repeat ;
+    border: none;
+    border-radius: 1rem;
+    background-position: center;
+    box-shadow: 0px 0px 15px 10px rgb(24, 25, 25);
+    background-size: 175px 175px;
+    background-color: #353535;
+    filter: blur(0px);
+}
+
+.div4:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.text4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.b4:hover{
+    filter: blur(4px) brightness(80%);
+    transition: 0.2s;
+    box-shadow: none;
+}
+
+.b4:active{
+    filter: brightness(130%);
+}
