@@ -1,10 +1,37 @@
 <html>
     <head>
+        <link rel="icon" href="dashboard.png">
         <link rel="stylesheet" href="mediastyle.css">
-        <title>Under construction</title>
+        <script type="text/javascript" src="./main.js"></script>
+        <title>Radarrr Dashboard</title>
     </head>
-    <body>
-        <h1>Under construction</h1>
-        <h2>Please be patient radarr is not yet setup on server</h2>
+    <body class="body1">
+        <div class="sidebar" id="sidebar">
+            <div id="content">
+                <h2 class="h2">Media</h2>
+                <ul class="nav_list">
+                    <li class="li1">
+                    <a href="./sonarr.html" class="b1"><img src="./Sonarr.svg" class="img1">Sonarr</a>
+                    </li>
+                    <li>
+                        <a href="jellyfin.html" class="b4"><img src="./jellyfin.svg" class="img4">Jellyfin</a>
+                    </li>
+                    <h3 class="h3">Torrent clients</h3>
+                    <ul class="nav_list">
+                        <li>
+                            <a href="Qbittorrent.html" class="b3"><img src="./Qbittorrent.svg" class="img3">Qbittorrent</a>
+                        </li>
+                    </ul>
+                    </ul>
+            </div>
+        </div>
+        <button class="dashboard" id="button1" onclick="openCloseNav()"></button>
+        <a href="/server site/index.html"><img src="./home.svg" class="home"></a>
+        <div class="div2">
+            <h1 class="h1">Qbittorrent Dashboard</h1>
+        </div>
+        <div class="div1">
+            <iframe src="http://192.168.0.30:7878/" frameborder="0" class="jellyfin"></iframe>
+        </div>  
     </body>
 </html>
